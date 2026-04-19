@@ -21,6 +21,7 @@ Quick-start guides for setting up tools and frameworks on various environments.
 Strategies for maintaining a clean, stable, and recoverable system environment.
 
 - [Ubuntu Server Snapshot & Reset Guide (Timeshift)](guides/ubuntu-server-backup-guide.md) — _Create "Restore Points" using Timeshift for safe experimentation._
+- [Secure GitHub Backup for .openclaw](guides/github-deploy-key-backup.md) — _Use SSH Deploy Keys to safely backup specific folders to GitHub._
 
 ### 🛠️ Development Workflows
 
