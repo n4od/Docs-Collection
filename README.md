@@ -16,6 +16,12 @@ Quick-start guides for setting up tools and frameworks on various environments.
 
 - [Installing OpenClaw on Low-End PCs](guides/openclaw-low-end-pc.md) — _Optimize AI workflows for older hardware._
 
+### 🛡️ System Management & Backup
+
+Strategies for maintaining a clean, stable, and recoverable system environment.
+
+- [Ubuntu Server Snapshot & Reset Guide (Timeshift)](guides/ubuntu-server-backup-guide.md) — _Create "Restore Points" using Timeshift for safe experimentation._
+
 ### 🛠️ Development Workflows
 
 Best practices for Git, Docker, and shell scripting.
