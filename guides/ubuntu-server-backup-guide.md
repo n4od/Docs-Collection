@@ -80,7 +80,16 @@ sudo timeshift --restore
 
 ## 📉 4. Maintenance Tips
 
-- **Check Space:** Monitor space using `df -h`. Some projects are large and can fill your drive quickly.
+- **Check Snapshot Sizes**: To see how much space each individual snapshot and the total folder use:
+
+  ```bash
+  # Individual snapshot sizes
+  sudo du -sh /timeshift/snapshots/*
+
+  # Total space used by Timeshift
+  sudo du -sh /timeshift/
+  ```
+
 - **List Snapshots**: `sudo timeshift --list`
 - **Delete Old Snapshots**: `sudo timeshift --delete --snapshot 'DATE_STRING'`
 - **Full Cleanup**: To delete all old points and free up space: `sudo timeshift --delete`
